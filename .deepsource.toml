@@ -1,5 +1,11 @@
 version = 1
 
+exclude_patterns = [
+  "src/main/resources/*",
+  "gradle/*",
+  ".github/*"
+]
+
 [[analyzers]]
 name = "java"
 
